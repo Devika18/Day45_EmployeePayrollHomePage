@@ -12,22 +12,48 @@
     <!--UC1 -->
     <header class="header-content header">
         <div class="logo-content">
-            <img src="/profilePic/logo.png" alt="" width="100" height="100">
+            <img src="./profilePic/logo.png" alt="" width="100" height="100">
             <div>
                 <span class="emp-text">EMPLOYEE</span><br>
                 <span class="emp-text emp-payroll">PAYROLL</span>
             </div>
         </div>
+        </header>
         <div class="main-content">
             <!--UC2-->
             <div class="header-content">
-                <div class="emp-detail-text" padding-left: 5px;padding-top: 5px;padding-bottom: 5px;size: 10px;padding-right: 5px;>
+                <div class="emp-detail-text" style="font-size: 20px;">
                     Employee Details<div class="emp-count"></div>
                 </div>
                 <a href="EmployeePayrollApp.html" class="add-button">
-                    <img src="/profilePic/add-24px.svg" alt="">Add Users</a>
+                    <img src="./profilePic/add-24px.svg" alt="">Add Users</a>
             </div><!--header content-->
         </div>
-    </header>
+        <table id="display" class="table" style="border-top-width: 2px;border-top-style: solid;border-left-width: 2px;border-left-style: solid;border-right-width: 2px;border-right-style: solid;border-bottom-width: 2px;
+        border-bottom-style: solid;">
+            <!--UC3-->
+            <tr>
+                <th>Profile</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Start Date</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+            <td><img class="profile" alt="" src="./profilePic/Ellipse -6.png"></td>
+            <td>Devika Karpe</td>
+            <td>Female</td>
+            <td><div class="dept-label">Software Developer</div>
+            <div class="dept-label">Engineer</div></td>
+            <td>450000</td>
+            <td>1 Nov 2022</td>
+            <td>
+                <img id="1" onclick="remove(this)" alt="delete" src="./profilePic/delete-black-18dp.svg">
+                <img id="1" onclick="update(this)" alt="edit" src="./profilePic/create-black-18dp.svg">
+            </td>
+            </tr>
+        </table>
 </body>
 </html>

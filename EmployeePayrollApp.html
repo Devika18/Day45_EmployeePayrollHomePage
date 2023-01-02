@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="new_payroll_form.css">
     <title>Employee Payroll Form</title>
-    <script defer src="EmployeePayrollData.js"></script>
-    <script defer src="new_payroll_form.js"></script>
+    <script defer src="../Day45/EmployeePayrollData.js"></script>
+    <script defer src="../Day45/new_payroll_form.js"></script>
 </head>
 <body>
     <header class="header-content header">
@@ -35,27 +35,27 @@
             <label class="label text" for="profile">Profile image</label>
             <div class="profile-radio-content">
                 <label>
-                    <input type="radio" id="profile1" name="profile" value="./profilePic/Ellipse -1.png" required>
+                    <input type="radio" id="profile1" name="profile" value="../AddEmployeePayroll/profilePic/Ellipse -1.png" required>
                     <img class="profile" id="image1" src="./profilePic/Ellipse -1.png">
                 </label>
                 <label>
-                    <input type="radio" id="profile2" name="profile" value="./profilePic/Ellipse -2.png" required>
+                    <input type="radio" id="profile2" name="profile" value="../AddEmployeePayroll/profilePic/Ellipse -2.png" required>
                     <img class="profile" id="image2" src="./profilePic/Ellipse -2.png">
                 </label>
                 <label>
-                    <input type="radio" id="profile3" name="profile" value="./profilePic/Ellipse -3.png" required>
+                    <input type="radio" id="profile3" name="profile" value="../AddEmployeePayroll/profilePic/Ellipse -3.png" required>
                     <img class="profile" id="image2" src="./profilePic/Ellipse -3.png">
                 </label>
                 <label>
-                    <input type="radio" id="profile4" name="profile" value="./profilePic/Ellipse -4.png" required>
+                    <input type="radio" id="profile4" name="profile" value="../AddEmployeePayroll/profilePic/Ellipse -4.png" required>
                     <img class="profile" id="image4" src="./profilePic/Ellipse -4.png">
                 </label>
                 <label>
-                    <input type="radio" id="profile5" name="profile" value="./profilePic/Ellipse -5.png" required>
+                    <input type="radio" id="profile5" name="profile" value="../AddEmployeePayroll/profilePic/Ellipse -5.png" required>
                     <img class="profile" id="image5" src="./profilePic/Ellipse -5.png">
                 </label>
                 <label>
-                    <input type="radio" id="profile6" name="profile" value="./profilePic/Ellipse -6.png" required>
+                    <input type="radio" id="profile6" name="profile" value="../AddEmployeePayroll/profilePic/Ellipse -6.png" required>
                     <img class="profile" id="image6" src="./profilePic/Ellipse -6.png">
                 </label>
             </div>
@@ -71,7 +71,7 @@
             </div>
         </div>
         <div class="row-content">
-            <label class="label text" for="department">Department</label>
+            <label class="label text" for="department" >Department</label>
             <div>
                 <input class="checkbox" type="checkbox" id="hr" name="hr" value="HR">
                 <label class="text" for="hr">HR</label>
@@ -87,7 +87,7 @@
         </div>
         <div class="row-content">
             <label class="label text" for="salary">Choose your salary: </label>
-            <input class="input" type="range" name="salary" id="salary" min="300000" max="800000" step="100" value="400000">
+            <input class="input" type="range" name="salary" id="salary" min="300000" max="500000" step="100" value="400000">
             <output class="salary-output text" for="salary">400000</output>
         </div>
     <!--Ability to specify the start date with Day, Month and Year as Select Input Item-->
